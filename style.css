@@ -6,16 +6,91 @@ body {
   font-family: "Raleway", sans-serif;
   font-size: 15px;
 }
+
 .attribution {
   font-size: 11px;
   text-align: center;
 }
+
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
 
 .container {
-  background-image: url(/images/bg-desktop.png);
-  background-size: cover;
+  background-image: url(./images/bg-desktop.png);
+  background-size: 100%;
   background-repeat: no-repeat;
+  width: 100%;
+  margin-top: 300px
+}
+
+li {
+  display: inline-block;
+  list-style: none;
+  margin: 1px;
+  background-color: #0c122c;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.row-storage {
+  position: absolute;
+  width: 850px;
+  height: 240px;
+  border: 1px solid #ffffff;
+  padding: 10px;
+}
+
+.row-storage > div {
+  float: left;
+  margin: 10px;
+}
+
+.right-storage {
+  border-radius: 5px 50px 5px 5px;
+  background-color: #1e2c69;
+  width: 200px;
+  height: 200px;
+}
+
+.left-storage {
+  border-radius: 5px;
+  background-color: #1e2c69;
+  width: 600px;
+  height: 200px;
+}
+
+.buble-storage {
+  background: #ffffff;
+  width: 100px;
+  height: 30px;
+  color: #0c122c;
+  font-size: 15px;
+}
+
+b .buble-storage {
+  font-size: 25px;
+}
+
+.bg-slider {
+  background-color: #0c122c;
+  border-radius: 5px;
+  width: 500px;
+  height: 20px;
+  margin: 5px;
+}
+
+.slider {
+  background-color:pink;
+  border-radius: 5px;
+  width: 350px;
+  height: 10px;
+  margin: 5px;
+}
+
+.btn-slider {
+  border-radius: 50%;
+  background-color: #ffffff;
+  width: 10px;
+  height: 10px;
 }
