@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap");
 
+:root{
+  --progColor : Gradient: (hsl(6, 100%, 80%) to hsl(335, 100%, 65%));
+}
+
 body {
   background-color: #0c122c;
   color: #ffffff;
@@ -21,7 +25,7 @@ body {
   background-size: 100%;
   background-repeat: no-repeat;
   width: 100%;
-  margin-top: 300px
+  margin-top: 300px;
 }
 
 li {
@@ -39,6 +43,7 @@ li {
   height: 240px;
   border: 1px solid #ffffff;
   padding: 10px;
+  margin: 10px;
 }
 
 .row-storage > div {
@@ -72,25 +77,36 @@ b .buble-storage {
   font-size: 25px;
 }
 
-.bg-slider {
+progress {
   background-color: #0c122c;
-  border-radius: 5px;
+  background: var(--progColor);
+  border-radius: 10px;
   width: 500px;
   height: 20px;
   margin: 5px;
 }
 
 .slider {
-  background-color:pink;
+  background-color: #b3ffdf;
   border-radius: 5px;
   width: 350px;
   height: 10px;
   margin: 5px;
+  margin-bottom: 10px;
+  padding: 1px;
 }
 
 .btn-slider {
-  border-radius: 50%;
   background-color: #ffffff;
+  border-radius: 50%;
   width: 10px;
   height: 10px;
+}
+
+@media screen and (max-width: 680px) {
+  body {
+    background-image: url(./images/bg-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
