@@ -79,7 +79,7 @@ b .buble-storage {
 
 progress {
   background-color: #0c122c;
-  background: var(--progColor);
+  color: var(--progColor);
   border-radius: 10px;
   width: 500px;
   height: 20px;
