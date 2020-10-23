@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap");
 
-:root{
-  --progColor : Gradient: (hsl(6, 100%, 80%) to hsl(335, 100%, 65%));
+:root {
+  --progColor1: hsl(6, 100%, 80%);
+  --progColor2: hsl(335, 100%, 65%);
 }
 
 body {
@@ -77,23 +78,24 @@ b .buble-storage {
   font-size: 25px;
 }
 
-progress {
-  background-color: #0c122c;
-  color: var(--progColor);
-  border-radius: 10px;
+.meter {
   width: 500px;
-  height: 20px;
-  margin: 5px;
+  height: 10px;
+  position: relative;
+  background: #0c122c;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 20px;
+  padding: 5px;
 }
 
-.slider {
-  background-color: #b3ffdf;
-  border-radius: 5px;
-  width: 350px;
-  height: 10px;
-  margin: 5px;
-  margin-bottom: 10px;
-  padding: 1px;
+.meter > span {
+  display: block;
+  height: 100%;
+  border-radius: 20px 8px 8px 20px;
+}
+.pink > span {
+  background-image: linear-gradient(var(--progColor1), var(--progColor2));
 }
 
 .btn-slider {
