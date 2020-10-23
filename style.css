@@ -92,7 +92,7 @@ b .buble-storage {
 .meter > span {
   display: block;
   height: 100%;
-  border-radius: 20px 8px 8px 20px;
+  border-radius: 50px;
 }
 .pink > span {
   background-image: linear-gradient(
