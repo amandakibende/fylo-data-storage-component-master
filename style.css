@@ -86,7 +86,7 @@ b .buble-storage {
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
   border-radius: 20px;
-  padding: 5px;
+  padding: 1px;
 }
 
 .meter > span {
@@ -95,7 +95,11 @@ b .buble-storage {
   border-radius: 20px 8px 8px 20px;
 }
 .pink > span {
-  background-image: linear-gradient(var(--progColor1), var(--progColor2));
+  background-image: linear-gradient(
+    135deg,
+    var(--progColor1),
+    var(--progColor2)
+  );
 }
 
 .btn-slider {
